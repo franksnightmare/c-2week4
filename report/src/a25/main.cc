@@ -1,5 +1,5 @@
 #include <unordered_map>
-#include <vector>
+#include <set>
 #include <algorithm>
 #include <string>
 #include <iostream>
@@ -12,17 +12,16 @@ int main(int argc, char **argv)
 	
 	// fill the container with data (no need to implement this)
 	
-	size_t nUniqueKeys = 0;
-	Vector<string> keys;
+	
+	set<string> keys;
 	for (size_t bucket = 0; bucket != container.bucket_count(); ++bucket)
 	{
 		for (auto it = container.begin(bucket); it != container.end(bucket); ++it)
 		{
-			if (find(keys.begin(), keys.end(), it->first) == keys.end())
-				keys.push_back(it->first);
-				++nUniqueKeys;
+			keys.insert(it->first)
 		}
 	}
+	size_t nUniqueKeys = keys.size();
 	
 	cout << "There are " << nUniqueKeys << " in the container\n";
 }

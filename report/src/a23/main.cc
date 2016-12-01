@@ -5,8 +5,7 @@ int main(int argc, char **argv)
 {
 	vector<string> wordList;
 	reader(cin, wordList);
-	cout << "size: " << wordList.size()
-		<< " capacity: " << wordList.capacity() << '\n';
+	printer(cout, wordList);
 	
 	wordList.push_back("test");
 	printer(cout, wordList);

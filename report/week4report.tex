@@ -1,0 +1,87 @@
+\documentclass[11pt]{article}
+
+\usepackage{times}
+\usepackage[english]{babel}
+
+% -----------------------------------------------
+% especially use this for you code
+% -----------------------------------------------
+
+\usepackage{courier}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{tabularx}
+\usepackage{graphicx}
+
+\definecolor{Gray}{gray}{0.95}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{language=C++,
+	basicstyle = \normalsize\ttfamily,   % the size and fonts that are used
+	tabsize = 2,                    % sets default tabsize
+	breaklines = true,              % sets automatic line breaking
+	keywordstyle=\color{blue}\ttfamily,
+	stringstyle=\color{red}\ttfamily,
+	commentstyle=\color{mygreen}\ttfamily,
+	numbers=left,
+	keepspaces=true,
+	showspaces=false,
+	showstringspaces=false,
+}
+
+\begin{document}
+
+\title{Programming in C/C++ \\
+       Exercises set four: containers
+}
+\date{\today}
+\author{Christiaan Steenkist \\
+Jaime Betancor Valado \\
+Remco Bos \\
+}
+
+\maketitle
+\section*{Exercise 23, vectors and shrinking}
+So we experimented with slicing off extra capacity with vectors and a class with a vector as a data member.
+
+\subsection*{Output}
+\begin{lstlisting}
+size: 10 capacity: 16
+size: 11 capacity: 16
+size: 11 capacity: 11
+
+size: 11 capacity: 16
+size: 12 capacity: 16
+size: 12 capacity: 12
+\end{lstlisting}
+
+\subsection*{Code listings}
+\lstinputlisting[caption = main.ih]{src/a23/main.ih}
+\lstinputlisting[caption = main.h]{src/a23/main.h}
+\lstinputlisting[caption = main.cc]{src/a23/main.cc}
+\lstinputlisting[caption = printer1.cc]{src/a23/printer1.cc}
+\lstinputlisting[caption = printer2.cc]{src/a23/printer2.cc}
+\lstinputlisting[caption = reader.cc]{src/a23/reader.cc}
+
+\subsubsection*{UniqueWordList}
+\lstinputlisting[caption = uniquewordlist.ih]{src/a23/uwl/uniquewordlist.ih}
+\lstinputlisting[caption = uniquewordlist.h]{src/a23/uwl/uniquewordlist.h}
+\lstinputlisting[caption = addword.cc]{src/a23/uwl/addword.cc}
+\lstinputlisting[caption = capacity.cc]{src/a23/uwl/capacity.cc}
+\lstinputlisting[caption = capacityconst.cc]{src/a23/uwl/capacityconst.cc}
+\lstinputlisting[caption = operator=.cc]{src/a23/uwl/operator=.cc}
+\lstinputlisting[caption = size.cc]{src/a23/uwl/size.cc}
+\lstinputlisting[caption = sizeconst.cc]{src/a23/uwl/sizeconst.cc}
+\lstinputlisting[caption = swap.cc]{src/a23/uwl/swap.cc}
+
+\section*{Exercise 25, unique keys}
+We made a snippet of code to count the number of unique keys in an \texttt{unordered\_multimap}.
+Never again.
+
+\subsection*{Code listings}
+\lstinputlisting[caption = main.cc]{src/a23/main.cc}
+
+\end{document}
