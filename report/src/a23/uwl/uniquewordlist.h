@@ -10,9 +10,11 @@ class UniqueWordList
 	
 	public:
 		UniqueWordList() = default;
-		UniqueWordList(UniqueWordList const &uwl) = default;
+		UniqueWordList(
+			UniqueWordList const &uwl) = default;
 		
-		UniqueWordList &operator=(UniqueWordList const &uwl);
+		UniqueWordList &operator=(
+			UniqueWordList const &uwl);
 		
 		void swap(UniqueWordList &uwl);
 		

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.5)  1 DEC 2016 14:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.5)  1 DEC 2016 14:57
 entering extended mode
 **week4report.tex
 (C:\Users\Christiaan\Documents\uni\c++\week4git\report\week4report.tex
@@ -205,23 +205,23 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 (C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a23/main.cc [2])
 (C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a23/printer1.cc)
 (C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a23/printer2.cc)
-(C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a23/reader.cc)
-[3]
+(C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a23/reader.cc
+[3])
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
 
 (C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a23/uwl/uniquewordli
 st.ih)
 (C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a23/uwl/uniquewordli
-st.h) [4]
+st.h [4])
 (C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a23/uwl/addword.cc)
 (C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a23/uwl/capacity.cc)
 
 (C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a23/uwl/capacitycons
 t.cc)
 (C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a23/uwl/operator=.cc
-) [5]
-(C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a23/uwl/size.cc)
+[5]) (C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a23/uwl/size.cc
+)
 (C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a23/uwl/sizeconst.cc
 ) (C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a23/uwl/swap.cc)
 Overfull \hbox (51.16995pt too wide) in paragraph at lines 81--83
@@ -230,23 +230,41 @@ ys in an \OT1/pcr/m/n/10.95 unordered[]multimap\OT1/ptm/m/n/10.95 .
  []
 
 (C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a23/main.cc [6])
-[7] (C:\Users\Christiaan\Documents\uni\c++\week4git\report\week4report.aux) ) 
+(C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a2627/Signal/signal.
+ih [7])
+(C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a2627/Signal/signal.
+h [8])
+(C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a2627/SignalHandler/
+signalhandler.ih)
+(C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a2627/SignalHandler/
+signalhandler.h)
+(C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a2627/SignalHandler/
+testhandler.h [9])
+(C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a2627/SignalHandler/
+testhandler.cc)
+(C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a2627/SignalHandler/
+detesthandler.cc)
+(C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a2627/Signal/instanc
+e.cc)
+(C:\Users\Christiaan\Documents\uni\c++\week4git\report\src/a2627/Signal/designa
+l.cc [10]) [11]
+(C:\Users\Christiaan\Documents\uni\c++\week4git\report\week4report.aux) ) 
 Here is how much of TeX's memory you used:
- 3165 strings out of 493921
- 45830 string characters out of 3144862
- 195934 words of memory out of 3000000
- 6390 multiletter control sequences out of 15000+200000
+ 3250 strings out of 493921
+ 48378 string characters out of 3144862
+ 196934 words of memory out of 3000000
+ 6447 multiletter control sequences out of 15000+200000
  17331 words of font info for 39 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  33i,6n,58p,223b,1487s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C
-:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/urw/times/utmr8a.pfb>
-Output written on week4report.pdf (7 pages, 54518 bytes).
+{C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/urw/times/utmr8a.pfb>
+Output written on week4report.pdf (11 pages, 60278 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
+ 51 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

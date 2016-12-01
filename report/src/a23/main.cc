@@ -14,7 +14,8 @@ int main(int argc, char **argv)
 	printer(cout, wordList);
 	
 	UniqueWordList uwl;
-	for (auto it = wordList.begin(); it != wordList.end(); ++it)
+	for (auto it = wordList.begin();
+		it != wordList.end(); ++it)
 	{
 		uwl.addWord(*it);
 	}
