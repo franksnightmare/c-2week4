@@ -19,20 +19,21 @@ int main()
 
     std::cout << std::endl;
     //End algorithm from exercise 22
-    for (std::size_t position = 0, posCompare
-        = position; position <= vec.size();
-        ++position)
-    {
-        if (vec[posCompare] != vec[position])
-        {
-            std::size_t times = position -
-                posCompare - 1;
-            std::cout << "The element "
-                << vec[posCompare] << " is repited "
-                << times << " times" << std::endl;
-            posCompare = position;
-        }
-    }
 
+    std::vector<std::string> vecUn;
+    vecUn = vec;
+    vecUn.erase(unique(vecUn.begin(), vecUn.end()),
+        vecUn.end());
+
+    for (std::size_t ind = 0; ind < vecUn.size();
+        ++ind)
+    {
+        std::size_t count = std::count (vec.begin(),
+            vec.end(), vecUn[ind]);
+
+        std::cout << "The element " << vecUn[ind]
+            << " is repited " << count - 1 << " times"
+            << std::endl;
+    }
 
 }
