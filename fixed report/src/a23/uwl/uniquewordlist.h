@@ -9,10 +9,6 @@ class UniqueWordList
 	std::vector<std::string> d_list;
 	
 	public:
-		UniqueWordList() = default;
-		UniqueWordList(
-			UniqueWordList const &uwl) = default;
-		
 		UniqueWordList &operator=(
 			UniqueWordList const &uwl);
 		
@@ -26,5 +22,8 @@ class UniqueWordList
 		std::size_t size() const;
 		std::size_t capacity() const;
 };
+
+bool findWord(std::vector<std::string> &wordList,
+	std::string word);
 
 #endif

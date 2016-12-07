@@ -1,4 +1,4 @@
-UWL = addword.o capacity.o capacityconst.o operator=.o size.o sizeconst.o swap.o
+UWL = addword.o findword.o capacity.o capacityconst.o operator=.o size.o sizeconst.o swap.o
 MAIN = printer1.o printer2.o reader.o
 
 #memory/memory.ih.gch: memory/memory.ih

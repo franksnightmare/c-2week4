@@ -4,8 +4,6 @@
 
 void UniqueWordList::addWord(string word)
 {
-	if (find(d_list.begin(), d_list.end(), word)
-		== d_list.end())
-		
+	if (!findWord(d_list, word))
 		d_list.push_back(word);
 }

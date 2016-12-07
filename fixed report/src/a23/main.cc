@@ -1,24 +1,21 @@
 #include "main.ih"
-#include "uwl/uniquewordlist.h"
 
 int main(int argc, char **argv)
 {
 	vector<string> wordList;
 	reader(cin, wordList);
-	printer(cout, wordList);
+	cout << "size: " << wordList.size()
+		<< " capacity: " << wordList.capacity() << '\n';
 	
 	wordList.push_back("test");
 	printer(cout, wordList);
 	
-	wordList = vector<string>(wordList);
+	wordList.shrink_to_fit();
 	printer(cout, wordList);
 	
 	UniqueWordList uwl;
-	for (auto it = wordList.begin();
-		it != wordList.end(); ++it)
-	{
+	for (auto it = wordList.begin(); it != wordList.end(); ++it)
 		uwl.addWord(*it);
-	}
 	cout << '\n';
 	
 	printer(cout, uwl);
