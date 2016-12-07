@@ -2,5 +2,4 @@
 
 Signal::~Signal()
 {
-    delete s_instance;
 }
